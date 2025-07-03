@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding Conf 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1><span class="logo"> <img src="assets/images/logo-full.svg" alt="logo-full"></span></h1>
+      <h2>Your Journey to Coding Conf 2025 Starts Here!</h2>
+      <p class="subtext">Secure your spot at next year’s biggest coding conference.</p>
+
+      <label class="upload-label">Upload Avatar</label>
+      <div class="upload-box">
+        <div class="upload-icon"><img src="assets/images/icon-upload.svg" alt="upload"></div>
+        <p>Drag and drop or click to upload</p>
+        <input type="file" accept="image/png, image/jpeg" />
+      </div>
+      <small class="note"> <img src="assets/images/icon-info.svg" alt="info"> Upload your photo (JPG or PNG, max size: 500KB).</small>
+
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="example@email.com" required />
+
+        <label for="github">GitHub Username</label>
+        <input type="text" id="github" placeholder="@yourusername" required />
+
+        <button type="submit">Generate My Ticket</button>
+      </form>
+      <div id="ticket-container"></div>
+
+      
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+
+</body>
+</html>
